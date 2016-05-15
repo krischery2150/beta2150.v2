@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'manuscript' => 'static_page#manuscript'
+  root 'static_page#manuscript'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

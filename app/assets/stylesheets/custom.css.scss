@@ -1,2 +1,168 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* lay out positioning */
+
+body{
+  padding: 0 0 0 0;
+  height : 100%;
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-body{
+  left: 20%;
+  height: 100%;
+  width: 85%;
+  position:relative;
+
+}
+/* navbar 1 container  + button layouts parameters  */
+.navbar1{
+  height: 100%;
+  width: 500px;
+  right: 80%;
+  background-color: black;
+  position: fixed;
+}
+
+.logo{
+  position: relative;
+  top: 80px;
+
+}
+
+.search-link{
+  position: relative;
+  top: 130px;
+  left: 270px;
+  width: 180px;
+  height: 33px;
+  text-align: center;
+
+}
+.index-link{
+  position: relative;
+  top: 210px;
+  left: 90px;
+  width: 140px;
+  height: 50px;
+  text-align: right;
+
+}
+
+.newsfeed-link{
+  position: relative;
+  top: 230px;
+  left: -15px;
+  width: 140px;
+  height: 50px;
+}
+
+.home-link{
+  position: relative;
+  top: 290px;
+  left: 170px;
+  width: 140px;
+  height: 50px;
+
+}
+
+.log-out-link{
+  position: relative;
+  top: 400px;
+  left: -15px;
+  width: 180px;
+  height: 33px;
+  text-align: center;
+}
+
+.manuscript-link{
+  position: relative;
+  top: 235px;
+  left: 270px;
+  width: 140px;
+  height: 50px;
+  text-align: right;
+}
+
+/* navbar 2 container parameters */
+.navbar2-container{
+  position: fixed;
+  height: 433px;
+  width: 170px;
+  left: 20.7%;
+  top: 2%;
+  background-color: #1B1B1B;
+}
+
+.profile-pic{
+  position: relative;
+  height: 160px;
+  width: 156px;
+  left: -8px;
+  top: 5px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-body{
+  position: fixed;
+  height: 100%;
+  left: 18%;
+  top: 0%;
+}
+
+.button-container{
+  position: fixed;
+  top: 80%;
+  left:20%;
+}
+.muses-container{
+  position: fixed;
+  top: 20%;
+  left: 40%;
+}
+
+.capsule-container{
+  top: 35%;
+  left: 30%;
+}
+
+.notifications-container{
+  top: 20%;
+  left: 35%;
+}
+
+.muses-container{
+  position: fixed;
+  width: 570px;
+  height: 340px;
+  top: 2%;
+  left: 35%;
+}
+
+.capsule-container{
+  position: fixed;
+  width: 570px;
+  height: 410px;
+  top: 45%;
+  left: 35%;
+}
+
+.notifications-container{
+  position: fixed;
+  width: 320px;
+  height: 649px;
+  top: 2%;
+  left: 75%;
+}
